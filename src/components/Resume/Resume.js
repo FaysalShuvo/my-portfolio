@@ -34,13 +34,20 @@ const Resume = () => {
       level: 70,
     },
   ];
+  const colors = {
+    bar: "#3498db",
+    title: {
+      text: "#fff",
+      background: "#2980b9",
+    },
+  };
   return (
     <div className="resume-body ">
       <h1 style={{ fontWeight: "900" }} className="text-center ">
         SKILLS
       </h1>
       <div className="skills">
-        <SkillBar skills={skills} />
+        <SkillBar skills={skills} colors={colors} />
 
         <h2>Resume</h2>
         <span style={{ display: "block" }}>

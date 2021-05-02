@@ -4,9 +4,8 @@ import { ExternalLink } from "react-external-link/dist/index.cjs";
 
 const Project = ({ project }) => {
   const { image, name, github, live } = project;
-  console.log(image);
   return (
-    <>
+    <div className="project-body">
       <div className="col-md-4 mt-3">
         <Card style={{ width: "18rem", backgroundColor: "black" }}>
           <Card.Img variant="top" src={image} />
@@ -27,7 +26,7 @@ const Project = ({ project }) => {
           </Card.Body>
         </Card>
       </div>
-    </>
+    </div>
   );
 };
 
