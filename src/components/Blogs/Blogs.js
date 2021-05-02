@@ -4,7 +4,7 @@ import { css } from "@emotion/core";
 import ClockLoader from "react-spinners/ClockLoader";
 
 const Blogs = () => {
-  let [loading, setLoading] = useState();
+  const [loading, setLoading] = useState();
 
   useEffect(() => {
     setLoading(true);

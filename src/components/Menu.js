@@ -24,9 +24,9 @@ function Menu() {
           {/* <GallerySVG />  */}
           <span style={{ fontFamily: "Montserrat" }}>Skills</span>
         </NavLink>
-        <NavLink to="about-me">
+        <NavLink to="contact-me">
           {/* <GallerySVG />  */}
-          <span style={{ fontFamily: "Montserrat" }}>About Us</span>
+          <span style={{ fontFamily: "Montserrat" }}>Contact Me</span>
         </NavLink>
         <NavLink to="blog">
           {/* <GallerySVG />  */}
