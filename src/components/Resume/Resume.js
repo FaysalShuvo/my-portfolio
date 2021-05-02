@@ -2,12 +2,6 @@ import React from "react";
 import "./Resume.css";
 import SkillBar from "react-skillbars";
 import { ExternalLink } from "react-external-link/dist/index.cjs";
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillFacebook,
-  AiFillCaretDown,
-} from "react-icons/ai";
 
 const Resume = () => {
   const skills = [
@@ -54,7 +48,6 @@ const Resume = () => {
             DOWNLOAD MY RESUME
           </ExternalLink>
         </span>
-       
       </div>
     </div>
   );
