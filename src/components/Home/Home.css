@@ -1,5 +1,6 @@
 .home-body {
-  height: 750px;
+  /* height: 750px; */
+  height: 100vh;
 }
 
 .home-text {

@@ -5,7 +5,11 @@ import {
   AiFillGithub,
   AiFillFacebook,
   AiFillCaretDown,
+  AiTwotoneMail,
+  AiFillMobile,
 } from "react-icons/ai";
+
+import { BiCurrentLocation } from "react-icons/bi";
 import { ExternalLink } from "react-external-link/dist/index.cjs";
 
 const AboutMe = () => {
@@ -73,16 +77,38 @@ const AboutMe = () => {
               name="message"
             ></textarea>
           </div>
-          <div className="col-8 pt-3 mx-auto">
+          <div className="col-8 pt-3  text-center mx-auto">
             <input
               type="submit"
-              className="btn btn-info"
+              className="btn btn-info "
               value="Send Message"
             ></input>
           </div>
         </div>
       </form>
-
+      <div className="text-center">
+        <p>or</p>
+      </div>
+      <div className="row mt-5 mb-3">
+        <div className="col-md-4 text-center">
+          <AiTwotoneMail
+            style={{ fontSize: "50px", color: "white" }}
+          ></AiTwotoneMail>
+          <h3>shuvonma@gmail.com</h3>
+        </div>
+        <div className="col-md-4 text-center">
+          <AiFillMobile
+            style={{ fontSize: "50px", color: "white" }}
+          ></AiFillMobile>
+          <h3>01521321722</h3>
+        </div>
+        <div className="col-md-4 text-center">
+          <BiCurrentLocation
+            style={{ fontSize: "50px", color: "white" }}
+          ></BiCurrentLocation>
+          <h3>Sylhet,Bangladesh</h3>
+        </div>
+      </div>
       <div className="text-center pb-5">
         <p style={{ fontFamily: "Montserrat" }}>
           or find me in <AiFillCaretDown />

@@ -47,7 +47,7 @@ const Resume = () => {
         SKILLS
       </h1>
       <div className="skills">
-        <SkillBar skills={skills} colors={colors} />
+        <SkillBar skills={skills} colors={colors} animationDelay={40} />
 
         <h2>Resume</h2>
         <span style={{ display: "block" }}>

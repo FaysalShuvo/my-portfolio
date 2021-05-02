@@ -14,9 +14,7 @@ function App() {
   return (
     <>
       <div className="app-body">
-     
-
-        <button onClick={toggleMenu} className="btn btn-light">
+        <button onClick={toggleMenu} className="btn btn-light mt-5">
           <RiMenuFoldFill />
         </button>
         <Route exact path="/" component={() => <Home />} />
