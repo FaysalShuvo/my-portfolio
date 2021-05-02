@@ -12,6 +12,8 @@ import { ExternalLink } from "react-external-link";
 const Home = () => {
   return (
     <div className="home-body d-flex justify-content-center align-items-center">
+      {" "}
+     
       <div className="row ">
         <div className="col-md-4 d-flex justify-content-center align-items-center home-img">
           <img className="shape" src={profile} alt="faysal islam Shuvo" />

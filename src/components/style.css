@@ -50,6 +50,7 @@ body {
   background: #000000;
   color: var(--light-text-color);
   height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .Menu button {
