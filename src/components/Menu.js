@@ -11,30 +11,28 @@ function Menu() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
         eligendi provident.
       </p> */}
-
       <nav onClick={closeMenu}>
         <NavLink exact to="/">
           {/* <HomeSVG /> */}
-          <span>Home</span>
+          <span style={{ fontFamily: "Montserrat" }}>Home</span>
         </NavLink>
         <NavLink to="projects">
           {/* <DashboardSVG /> */}
-          <span>Projects</span>
+          <span style={{ fontFamily: "Montserrat" }}>Projects</span>
         </NavLink>
-        <NavLink to="resume">
+        <NavLink to="skills">
           {/* <GallerySVG />  */}
-          <span>Resume</span>
+          <span style={{ fontFamily: "Montserrat" }}>Skills</span>
         </NavLink>
         <NavLink to="about-me">
           {/* <GallerySVG />  */}
-          <span>About Us</span>
+          <span style={{ fontFamily: "Montserrat" }}>About Us</span>
         </NavLink>
         <NavLink to="blog">
           {/* <GallerySVG />  */}
-          <span>Blog</span>
+          <span style={{ fontFamily: "Montserrat" }}>Blog</span>
         </NavLink>
       </nav>
-
       <button onClick={closeMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

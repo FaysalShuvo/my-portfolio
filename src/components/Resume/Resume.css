@@ -1,0 +1,17 @@
+.resume-body {
+  background-color: #111111;
+  color: white;
+  /* height: 100vh; */
+  font-family: "Montserrat";
+}
+.skills {
+  padding: 00px 100px 150px 100px;
+ 
+}
+.skills-bar {
+  margin-bottom: 15px;
+  height: 50px;
+}
+.skill-bar {
+  height: 100px !important;
+}

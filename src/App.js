@@ -19,7 +19,7 @@ function App() {
         </button>
         <Route exact path="/" component={() => <Home />} />
         <Route path="/projects" component={() => <Projects />} />
-        <Route path="/resume" component={() => <Resume />} />
+        <Route path="/skills" component={() => <Resume />} />
         <Route path="/about-me" component={() => <AboutMe />} />
         <Route path="/blog" component={() => <Blogs />} />
       </div>

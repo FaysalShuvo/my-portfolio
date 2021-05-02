@@ -6,7 +6,7 @@ import App from "./App";
 import Menu from "../src/components/Menu";
 import "../src/components/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./index.css";
 
 ReactDOM.render(
   <BrowserRouter>
