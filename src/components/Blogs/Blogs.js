@@ -5,6 +5,7 @@ import ClockLoader from "react-spinners/ClockLoader";
 
 const Blogs = () => {
   let [loading, setLoading] = useState(true);
+  setLoading(true);
   const override = css`
     margin: 0 auto;
     border-color: red;
