@@ -12,11 +12,7 @@ function Menu() {
   return (
     <div className="Menu d-flex align-items-center">
      
-      {/* <h1>Menu</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-        eligendi provident.
-      </p> */}
+    
       <nav onClick={closeMenu}>
         <NavLink exact to="/">
           <AiFillHome

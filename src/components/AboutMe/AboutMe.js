@@ -94,13 +94,13 @@ const AboutMe = () => {
           <AiTwotoneMail
             style={{ fontSize: "50px", color: "white" }}
           ></AiTwotoneMail>
-          <h3>shuvonma@gmail.com</h3>
+          <h3>faysalshuvo.dev@gmail.com</h3>
         </div>
         <div className="col-md-4 text-center">
           <AiFillMobile
             style={{ fontSize: "50px", color: "white" }}
           ></AiFillMobile>
-          <h3>01521321722</h3>
+          <h3>+8801521321722</h3>
         </div>
         <div className="col-md-4 text-center">
           <BiCurrentLocation
@@ -125,7 +125,7 @@ const AboutMe = () => {
             style={{ fontSize: "30px", color: "white" }}
           />
         </ExternalLink>
-        <ExternalLink href="https://github.com/FaysalShuvo">
+        <ExternalLink href="https://www.facebook.com/faysalislamsh">
           <AiFillFacebook
             className="mr-2 "
             style={{ fontSize: "30px", color: "white" }}
